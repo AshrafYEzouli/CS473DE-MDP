@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout
+    android:id="@+id/tableLayout"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,14 +9,15 @@
     android:orientation="vertical">
 
     <TableRow>
+
         <EditText
             android:id="@+id/versionCodeEt"
             android:layout_height="wrap_content"
+            android:layout_margin="12dp"
             android:layout_weight="1"
-            android:hint="@string/enter_android_version"
             android:autofillHints="@string/enter_android_version"
-            android:inputType="numberDecimal"
-            android:layout_margin="12dp"/>
+            android:hint="@string/enter_android_version"
+            android:inputType="text" />
     </TableRow>
 
     <TableRow>
@@ -39,21 +41,35 @@
     </TableRow>
 
     <TableRow
-        android:background="#0079D6"
-        android:layout_margin="12dp"
-        android:padding="5dp">
+        style="@style/TitleTableRowStyle">
         <TextView
-            android:layout_height="wrap_content"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:text="@string/version"
-            android:textColor="@color/white"/>
+            style="@style/TableRowTextViewStyle"/>
 
         <TextView
-            android:layout_height="wrap_content"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:text="@string/code_name"
-            android:textColor="@color/white"/>
+            style="@style/TableRowTextViewStyle"/>
+    </TableRow>
+
+    <TableRow
+        style="@style/BodyTableRowStyle">
+        <TextView
+            android:text="Android 0.0"
+            style="@style/TableRowTextViewStyle"/>
+
+        <TextView
+            android:text="Pie"
+            style="@style/TableRowTextViewStyle"/>
+    </TableRow>
+
+    <TableRow
+        style="@style/BodyTableRowStyle">
+        <TextView
+            android:text="Android 8.0"
+            style="@style/TableRowTextViewStyle"/>
+
+        <TextView
+            android:text="Oreo"
+            style="@style/TableRowTextViewStyle"/>
     </TableRow>
 </TableLayout>
