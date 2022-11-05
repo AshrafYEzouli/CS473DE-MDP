@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="q1">You can create an emulator to simulate the configuration of a particular type of Android device using a tool like:</string>
+    <string name="q2">What parameter specifies the Android API level that Gradle should use to compile your app?</string>
+    <string name="submit">Submit</string>
+    <string name="rest">Rest</string>
+</resources>
