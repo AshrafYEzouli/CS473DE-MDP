@@ -3,4 +3,10 @@
     <string name="login">Login</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="logo">logo</string>
+    <string name="sign_in_to_your_account">Sign in to your account</string>
+    <string name="email_address_required">Email address (required)</string>
+    <string name="password_required">Password (required)</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="sign_in">Sign In</string>
 </resources>
